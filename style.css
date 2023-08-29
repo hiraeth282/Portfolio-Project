@@ -1,17 +1,19 @@
-body {
-    background-color: #5C4B99;
+
+:root {
+    --main-font: "Alegreya", serif;
+    --title-font: "Lora", serif;
 }
 
-h1 {
-    font-family: 'Lora', serif;
-    color: white;
+h1, h2 {
+    font-family: var(--title-font);
 }
 
-p {
-    font-family: "Alegreya", serif;
-    color: white;
+.btn-branding {
+    font-family: var(--main-font);
+    border: 1px solid;
 }
 
-i {
-    font-size: 60px;
+.contact-btn {
+    display: block;
+    text-align: center;
 }
