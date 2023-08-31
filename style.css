@@ -1,19 +1,41 @@
-
 :root {
-    --main-font: "Alegreya", serif;
-    --title-font: "Lora", serif;
+  --main-font: "Alegreya", serif;
+  --title-font: "New Rocker", cursive;
+  --main-color: #fff;
+  --accent-color: #fff;
+  --background-color: #1b1b1b;
 }
 
-h1, h2 {
-    font-family: var(--title-font);
+body {
+  background-color: var(--background-color);
+}
+
+h1,
+h2 {
+  font-family: var(--title-font);
+}
+
+.hero {
+  text-align: center;
+  padding: 100px;
+}
+
+.hero h1,
+h2 {
+  color: var(--accent-color);
+}
+
+.hero h1 {
+  font-size: 80px;
 }
 
 .btn-branding {
-    font-family: var(--main-font);
-    border: 1px solid;
+  font-family: var(--main-font);
+  border: 1px solid;
+  color: var(--main-color);
 }
 
-.contact-btn {
-    display: block;
-    text-align: center;
+.contact-link:hover {
+  color: var(--background-color);
+  background-color: var(--main-color);
 }
