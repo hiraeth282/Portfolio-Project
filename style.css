@@ -2,17 +2,17 @@
   --main-font: "Alegreya", serif;
   --title-font: "New Rocker", cursive;
   --main-color: #fff;
-  --accent-color: #fff;
   --background-color: #1b1b1b;
 }
 
 body {
   background-color: var(--background-color);
+  color: var(--main-color);
 }
 
-h1,
-h2 {
-  font-family: var(--title-font);
+h3 {
+  font-family: "Alegreya", serif;
+  font-size: 35px;
 }
 
 .hero {
@@ -22,7 +22,7 @@ h2 {
 
 .hero h1,
 h2 {
-  color: var(--accent-color);
+  font-family: var(--title-font);
 }
 
 .hero h1 {
