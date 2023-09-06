@@ -35,7 +35,7 @@ h2 {
   color: var(--main-color);
 }
 
-.contact-link:hover {
+.btn:hover {
   color: var(--background-color);
   background-color: var(--main-color);
 }
