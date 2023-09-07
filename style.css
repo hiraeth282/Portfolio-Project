@@ -12,12 +12,17 @@ body {
 }
 
 h3 {
-  font-family: "Alegreya", serif;
+  font-family: var(--main-font);
   font-size: 35px;
 }
 
-.about-paragraph {
-  text-align: center;
+h4 {
+  font-family: var(--title-font);
+  font-size: 55px;
+}
+
+p {
+  font-family: var(--main-font);
 }
 
 .hero {
@@ -52,4 +57,19 @@ h2 {
 
 .contact-link:hover {
   color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .about-header,
+  .about-paragraph,
+  .about-command {
+    text-align: center;
+  }
+
+  .about-image {
+    display: none;
+  }
 }
