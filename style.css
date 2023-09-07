@@ -3,6 +3,7 @@
   --title-font: "New Rocker", cursive;
   --main-color: #fff;
   --background-color: #1b1b1b;
+  --accent-color: #614bc3;
 }
 
 body {
@@ -13,6 +14,10 @@ body {
 h3 {
   font-family: "Alegreya", serif;
   font-size: 35px;
+}
+
+.about-paragraph {
+  text-align: center;
 }
 
 .hero {
@@ -38,4 +43,13 @@ h2 {
 .btn:hover {
   color: var(--background-color);
   background-color: var(--main-color);
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.contact-link:hover {
+  color: var(--accent-color);
 }
