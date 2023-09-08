@@ -59,9 +59,6 @@ h2 {
   color: var(--accent-color);
 }
 
-@media (max-width: 768px) {
-}
-
 @media (max-width: 576px) {
   .about-header,
   .about-paragraph,
@@ -69,7 +66,9 @@ h2 {
     text-align: center;
   }
 
-  .about-image {
-    display: none;
+  .about-btn {
+    display: block;
+    text-align: center;
+    max-width: 100px;
   }
 }
