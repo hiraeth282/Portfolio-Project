@@ -60,9 +60,18 @@ h2 {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 40px !important;
+  }
+
+  .home-img {
+    display: none;
+  }
+
+  p,
   .about-header,
-  .about-paragraph,
-  .about-command {
+  .about-command,
+  .section-title {
     text-align: center;
   }
 
