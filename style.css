@@ -64,24 +64,17 @@ h2 {
     font-size: 40px !important;
   }
 
-  .home-img {
+  .content {
+    text-align: center;
+  }
+
+  .content-img {
     display: none;
   }
 
-  .home-btn {
+  .content-btn {
     display: block;
     text-align: center;
-  }
-
-  p,
-  .about-content,
-  .section-title {
-    text-align: center;
-  }
-
-  .about-btn {
-    display: block;
-    text-align: center;
-    max-width: 100px;
+    margin: 20px 80px;
   }
 }
