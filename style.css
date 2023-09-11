@@ -59,6 +59,10 @@ h2 {
   color: var(--accent-color);
 }
 
+.content-img {
+  border-radius: 8px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 40px !important;
