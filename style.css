@@ -1,5 +1,5 @@
 :root {
-  --main-font: "Courier New", Courier, monospace;
+  --main-font: serif;
   --title-font: "New Rocker", cursive;
   --main-color: #fff;
   --background-color: #1b1b1b;
@@ -23,10 +23,6 @@ h4 {
 
 p {
   font-family: var(--main-font);
-}
-
-img {
-  border-radius: 8px;
 }
 
 .hero {
@@ -80,5 +76,9 @@ h2 {
     display: block;
     text-align: center;
     margin: 20px 80px;
+  }
+
+  .card {
+    margin-bottom: 20px;
   }
 }
