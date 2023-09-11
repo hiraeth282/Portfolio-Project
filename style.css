@@ -59,8 +59,12 @@ h2 {
   color: var(--accent-color);
 }
 
-.content-img {
+.content-img,
+.gallery-img {
   border-radius: 8px;
+}
+
+.gallery-container {
 }
 
 @media (max-width: 576px) {
@@ -74,6 +78,10 @@ h2 {
 
   .content-img {
     display: none;
+  }
+
+  .gallery-img {
+    margin-bottom: 10px;
   }
 
   .content-btn {
