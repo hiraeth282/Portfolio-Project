@@ -50,15 +50,6 @@ h2 {
   background-color: var(--main-color);
 }
 
-.contact-link {
-  text-decoration: none;
-  color: var(--main-color);
-}
-
-.contact-link:hover {
-  color: var(--accent-color);
-}
-
 .content-img,
 .gallery-img {
   border-radius: 8px;
@@ -66,6 +57,24 @@ h2 {
 
 .gallery-img {
   margin-top: 30px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 22px;
+}
+
+footer .email-link:hover {
+  color: var(--accent-color);
+}
+
+footer .social-links a {
+  color: white;
+  margin: 0px 20px;
+  background-color: #2b3035;
+  padding: 10px 14px;
+  border-radius: 50%;
 }
 
 @media (max-width: 576px) {
