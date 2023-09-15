@@ -2,8 +2,9 @@
   --main-font: serif;
   --title-font: "New Rocker", cursive;
   --main-color: #fff;
+  --secondary-color: #2b3035;
   --background-color: #1b1b1b;
-  --accent-color: #614bc3;
+  --accent-color: #b598ef;
 }
 
 body {
@@ -59,14 +60,35 @@ h2 {
   margin-top: 30px;
 }
 
-footer .email-link {
-  text-decoration: none;
-  color: var(--main-color);
-  font-size: 22px;
+.section-highlight {
+  background-color: var(--secondary-color);
+  padding: 50px;
+  border-radius: 8px;
 }
 
-footer .email-link:hover {
+.section-highlight h2 {
+  font-size: 60px;
+}
+
+.section-highlight a {
+  font-size: 30px;
+}
+
+.link-branding {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.link-branding:hover {
   color: var(--accent-color);
+}
+
+footer {
+  margin-top: 80px;
+}
+
+footer .email-link {
+  font-size: 22px;
 }
 
 footer .social-links a {
@@ -75,6 +97,10 @@ footer .social-links a {
   background-color: #2b3035;
   padding: 10px 14px;
   border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: var(--accent-color);
 }
 
 @media (max-width: 576px) {
