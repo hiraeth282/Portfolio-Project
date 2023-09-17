@@ -108,6 +108,22 @@ footer .social-links a:hover {
     font-size: 40px !important;
   }
 
+  .hero {
+    padding: 30px 10px 40px 10px;
+  }
+
+  .hero a {
+    margin-top: 15px !important;
+  }
+
+  .section-highlight h2 {
+    font-size: 30px;
+  }
+
+  .section-highlight a {
+    font-size: 20px;
+  }
+
   .content {
     text-align: center;
   }
@@ -128,5 +144,9 @@ footer .social-links a:hover {
 
   .card {
     margin-bottom: 20px;
+  }
+
+  footer a {
+    text-align: center;
   }
 }
